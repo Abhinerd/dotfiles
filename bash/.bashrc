@@ -19,3 +19,8 @@ source -- ~/.local/share/blesh/ble.sh --attach=none
 
 # Attach ble.sh
 ble-attach
+
+# source functions
+for file in ~/.config/bash/functions/*.sh; do
+    source "$file"
+done
