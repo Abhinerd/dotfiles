@@ -10,6 +10,12 @@ alias grep='grep --color=auto'
 alias eza-tree='eza -A --icons=always --tree -I ".git"'
 alias eza='eza -a -1 --icons=always'
 
-#PS1='|-{\u@\h} {\W}\n|-\$'
 PS1='\n┌──{\u@\h} [\w]\n└─ $ '
+# ORIGINAL DEFAULT PS1
 #PS1='[\u@\h \W]\$ '
+
+# Initialize ble.sh
+source -- ~/.local/share/blesh/ble.sh --attach=none
+
+# Attach ble.sh
+ble-attach
