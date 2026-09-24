@@ -8,7 +8,7 @@
 # source aliases
 source ~/.config/bash/aliases.sh
 
-PS1='┌──{\u@\h} [\w]\n└─ $ '
+PS1='┌──\u@\h | \w\n└─≻ '
 # ORIGINAL DEFAULT PS1
 #PS1='[\u@\h \W]\$ '
 
